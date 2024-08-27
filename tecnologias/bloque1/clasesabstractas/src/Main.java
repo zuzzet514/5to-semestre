@@ -11,7 +11,7 @@ public class Main {
         guerero1.showStatusCharacter();
         guerero1.showStatusCharacter();
 
-        Character character = new Character();
+        // Character character = new Character();
 
     }
 }
