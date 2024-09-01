@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bloque1/SingleResponsability/SRP/SRP.iml" filepath="$PROJECT_DIR$/bloque1/SingleResponsability/SRP/SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bloque1/clasesabstractas/clasesabstractas.iml" filepath="$PROJECT_DIR$/bloque1/clasesabstractas/clasesabstractas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bloque1/interfacescohesionacoplamiento/interfacescohesionacoplamiento.iml" filepath="$PROJECT_DIR$/bloque1/interfacescohesionacoplamiento/interfacescohesionacoplamiento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bloque1/SingleResponsability/srprefactoring/srprefactoring.iml" filepath="$PROJECT_DIR$/bloque1/SingleResponsability/srprefactoring/srprefactoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tecnologias.iml" filepath="$PROJECT_DIR$/.idea/tecnologias.iml" />
+    </modules>
+  </component>
+</project>
