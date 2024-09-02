@@ -29,11 +29,20 @@ public class BasicCoffeeApp {
         // Instantiate CoffeeApp
         BasicCoffeeApp app = new BasicCoffeeApp(machine);
 
+        try {
+            app.prepareCoffee(CoffeeSelection.FILTER_COFFEE);
+        } catch (CoffeeException e) {
+            e.printStackTrace();
+        }
+
         // brew a fresh coffee
+        /*
         try {
             app.prepareCoffee(CoffeeSelection.ESPRESSO);
         } catch (CoffeeException e) {
             e.printStackTrace();
         }
+
+         */
     } // end main
 } // end CoffeeApp
