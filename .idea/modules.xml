@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/5to-semestre.iml" filepath="$PROJECT_DIR$/.idea/5to-semestre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tecnologias/bloque1/SingleResponsability/SRP/SRP.iml" filepath="$PROJECT_DIR$/tecnologias/bloque1/SingleResponsability/SRP/SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tecnologias/bloque1/clasesabstractas/clasesabstractas.iml" filepath="$PROJECT_DIR$/tecnologias/bloque1/clasesabstractas/clasesabstractas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tecnologias/bloque1/interfacescohesionacoplamiento/interfacescohesionacoplamiento.iml" filepath="$PROJECT_DIR$/tecnologias/bloque1/interfacescohesionacoplamiento/interfacescohesionacoplamiento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tecnologias/bloque1/liskov/liskov.iml" filepath="$PROJECT_DIR$/tecnologias/bloque1/liskov/liskov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paradigmas/paradigmas.iml" filepath="$PROJECT_DIR$/paradigmas/paradigmas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/qa.iml" filepath="$PROJECT_DIR$/qa/qa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tecnologias/bloque1/SingleResponsability/srprefactoring/srprefactoring.iml" filepath="$PROJECT_DIR$/tecnologias/bloque1/SingleResponsability/srprefactoring/srprefactoring.iml" />
+    </modules>
+  </component>
+</project>
