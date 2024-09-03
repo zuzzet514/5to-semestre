@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SRP/SRP.iml" filepath="$PROJECT_DIR$/SRP/SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SingleResponsability.iml" filepath="$PROJECT_DIR$/.idea/SingleResponsability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srprefactoring/srprefactoring.iml" filepath="$PROJECT_DIR$/srprefactoring/srprefactoring.iml" />
+    </modules>
+  </component>
+</project>
