@@ -50,12 +50,8 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-        triangleType(1, 50, 75);
-        triangleType(2, 3, 1);
-        triangleType(330, 50, 72);
-        triangleType(50, 50, 73);
-        triangleType(4,4,4);
-        triangleType(5,6,10);
+        triangleType(6, 4, 2);
+
     } // fin del main
 
 } // fin de la clase
