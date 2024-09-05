@@ -1,6 +1,6 @@
- public class Main {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("hola");
+        /*System.out.println("hola");
 
         Maestro maistro = new Maestro();
         maistro.nombre = "Morales";
@@ -17,5 +17,15 @@
         Maestro.id++;
 
         maistro.mostrarId();
+
+         */
+
+        //mostrarMenu();
+
+        Maestro maestro = new Maestro();
+        maestro.nombre = "Morales";
+
     }
+
+
 }

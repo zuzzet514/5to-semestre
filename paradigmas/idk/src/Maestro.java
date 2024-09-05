@@ -1,11 +1,13 @@
 public class Maestro {
     //Atributos
-    static int id;
+    static int ID = 1;
+    int id;
     String nombre;
     String especialidad;
 
     public Maestro() {
         System.out.println("hola yo me ejecuté primero");
+        this.id = ID++;
         id++;
     }
 
