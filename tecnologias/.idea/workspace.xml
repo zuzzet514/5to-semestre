@@ -1,19 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7f23b5c2-6f1a-4923-8e2b-a8419a0cdbf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bloque1/SingleResponsability/SRP/SRP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloque1/SingleResponsability/srprefactoring/srprefactoring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloque1/clasesabstractas/clasesabstractas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloque1/interfacescohesionacoplamiento/interfacescohesionacoplamiento.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/5to-semestre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/5to-semestre.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tecnologias.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tecnologias.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/DIPpractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/ConsoleInputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/DocumentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/DocxFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/FileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/FileCreatorRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice/src/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/Esto va en el contenido.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/Hola Jordain.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/hola.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/holaaaa.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/palabras.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/ConsoleInputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/DocumentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/DocxFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/FileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/FileCreatorRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/src/main/java/org/example/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPpractice2/test.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2lSFcJEMBn0114lByEc7vnbxpea" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,14 +74,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zuzze/uv/5to-semestre/tecnologias/bloque1/liskov"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zuzze/uv/5to-semestre/tecnologias&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zuzze\uv\5to-semestre\tecnologias\DIPpractice\src" />
+      <recent name="C:\Users\zuzze\uv\5to-semestre\tecnologias\DIPpractice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bad.Main" />
+      <module name="tecnologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bad.TxtFileCreator" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1725165649182</updated>
       <workItem from="1725165650510" duration="39000" />
+      <workItem from="1725599071187" duration="4255000" />
+      <workItem from="1725637316500" duration="6208000" />
     </task>
     <servers />
   </component>
