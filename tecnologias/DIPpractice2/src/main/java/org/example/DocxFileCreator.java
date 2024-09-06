@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class DocxFileCreator implements FileCreator {
     @Override
-    public void createFile(String content, String fileName) {
+    public void createFile(String fileName, String content) {
         try (XWPFDocument document = new XWPFDocument();
              FileOutputStream out = new FileOutputStream(fileName + ".docx")) {
             document.createParagraph().createRun().setText(content);

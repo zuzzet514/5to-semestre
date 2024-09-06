@@ -11,10 +11,10 @@ public class DocumentManager {
     }
 
     public void generateDocument() {
-        System.out.print("Enter the content of the document: ");
+        System.out.println("Enter the content of the document: ");
         String content = scanner.nextLine();
 
-        System.out.print("Enter the file name (without extension):)");
+        System.out.println("Enter the file name (without extension): ");
         String fileName = scanner.nextLine();
 
         FileCreator fileCreator = inputReader.getFileCreator();
