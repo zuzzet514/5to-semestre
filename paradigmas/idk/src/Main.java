@@ -22,8 +22,14 @@ public class Main {
 
         //mostrarMenu();
 
+        /*
         Maestro maestro = new Maestro();
         maestro.nombre = "Morales";
+
+         */
+        Calculadora.ClaseAnidada cal = new Calculadora.ClaseAnidada();
+
+        cal.mostrarNumero();
 
     }
 
