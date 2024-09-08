@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b3088f9-4710-4e6f-bb3c-27fdc954b17a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/ConsoleInputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/DocumentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/DocxFileCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/FileCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/FileCreatorRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIPpractice2/target/classes/org/example/TxtFileCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/ChappelRoan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/DIPpractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/src/bad/DocumentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/src/bad/InputReaderPuto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/src/bad/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice/src/bad/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/Esto va en el contenido.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/Hola Jordain.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/hola.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/holaaaa.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/palabras.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/ConsoleInputReaderPuto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/DocumentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/DocxFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/FileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/FileCreatorRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/src/good/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/DIPpractice2/test.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/archivito.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/saludo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/practicept2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/DIP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/src/DocumentGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/src/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept2/untitled/src/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/Paranoid Android by Radiohead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/Rosi.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/after midnight by chappel roan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/hero by monsta x.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/mascotas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/saludo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/ConsoleReaderInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/DocumentCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/DocxFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/FileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/FileCreatorRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/src/main/java/TxtFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/ConsoleReaderInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/DocumentCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/DocxFileCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/FileCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/FileCreatorRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicept3/DIPRefactoring/target/classes/TxtFileCreator.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2lo5PAfTSyPXomKuBEf0nCoOO4q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/zuzze/uv/5to-semestre/tecnologias/bloque1/DIPdefinitivo"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b3088f9-4710-4e6f-bb3c-27fdc954b17a" name="Changes" comment="" />
+      <created>1725833561383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725833561383</updated>
+      <workItem from="1725833562657" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
