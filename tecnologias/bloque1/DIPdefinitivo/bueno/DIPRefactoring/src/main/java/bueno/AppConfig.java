@@ -1,10 +1,11 @@
+package bueno;
+
 public class AppConfig {
     public static DocumentCreator generateDocumentCreator() {
-        String[] fileTypes = {"txt", "docx"};
 
         FileCreatorRegistry registry = new FileCreatorRegistry();
-        registry.registerCreators(1, new TxtFileCreator(), fileTypes[0]);
-        registry.registerCreators(2, new DocxFileCreator(), fileTypes[1]);
+        registry.registerCreators(1, new TxtFileCreator(), TxtFileCreator.getType());
+        registry.registerCreators(2, new DocxFileCreator(), DocxFileCreator.getType());
 
 
         InputReader inputReader = new ConsoleReaderInput();
