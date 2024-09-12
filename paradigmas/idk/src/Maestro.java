@@ -7,11 +7,9 @@ public class Maestro extends Usuario {
     private int numPersonal;
     private String especialidad;
 
-    public Maestro(String nombre, String correo, String telefono, int numPersonal, String especialidad, ArrayList<TutoriasDisponibles> tutoriasDisponibles) {
-        super(nombre, correo, telefono);
+    public Maestro(String nombre, String correo, int numPersonal) {
+        super(nombre, correo);
         this.numPersonal = numPersonal;
-        this.especialidad = especialidad;
-        this.tutoriasDisponibles = tutoriasDisponibles;
     }
 
     public int getNumPersonal() {
@@ -40,7 +38,7 @@ public class Maestro extends Usuario {
 
     ArrayList<TutoriasDisponibles> tutoriasDisponibles = new ArrayList<>();
 
-    public void addCursoDisponible(Date fecha, String hora) {
+    public void addTutoriasDisponibles(Date fecha, String hora) {
         tutoriasDisponibles.add(new TutoriasDisponibles(fecha, hora));
     }
 
@@ -82,6 +80,18 @@ public class Maestro extends Usuario {
         public void setHora(String hora) {
             this.hora = hora;
         }
+
+        @Override
+        public String toString() {
+            return "Fecha:  " + this.fecha + " Hora: " + this.hora + "\n";
+        }
     }
 
+    @Override
+    public String toString() {
+
+        return super.toString() + "\nno. de personal: " + numPersonal + "\ncursos disponibles: " + "\ncursos disponibles son: \n" + tutoriasDisponibles.toString();
+
+
+    }
 }

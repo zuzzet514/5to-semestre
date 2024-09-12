@@ -6,4 +6,9 @@ public class Estudiante extends Usuario {
         super(nombre,correo, telefono);
         this.matricula = matricula;
     }
+
+    public Estudiante(String matricula, String nombre, String correo) {
+        super(nombre, correo);
+        this.matricula = matricula;
+    }
 }
