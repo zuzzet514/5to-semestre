@@ -7,7 +7,12 @@ public class Maestro extends Usuario {
     private int numPersonal;
     private String especialidad;
 
-
+    public Maestro(String nombre, String correo, String telefono, int numPersonal, String especialidad, ArrayList<TutoriasDisponibles> tutoriasDisponibles) {
+        super(nombre, correo, telefono);
+        this.numPersonal = numPersonal;
+        this.especialidad = especialidad;
+        this.tutoriasDisponibles = tutoriasDisponibles;
+    }
 
     public int getNumPersonal() {
         return numPersonal;
