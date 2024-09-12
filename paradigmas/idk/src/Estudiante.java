@@ -11,4 +11,9 @@ public class Estudiante extends Usuario {
         super(nombre, correo);
         this.matricula = matricula;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nMatricula: " + matricula;
+    }
 }
