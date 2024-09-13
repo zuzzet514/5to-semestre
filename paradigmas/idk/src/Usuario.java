@@ -1,4 +1,4 @@
-public class Usuario extends Object {
+public abstract class Usuario extends Object {
     private String nombre;
     private String correo;
     private String telefono;
@@ -18,4 +18,6 @@ public class Usuario extends Object {
     public String toString() {
         return "Nombre: " + nombre + "\nCorreo: " + correo;
     }
+
+
 }
