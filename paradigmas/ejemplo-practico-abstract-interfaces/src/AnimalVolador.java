@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface AnimalVolador {
+    void volar();
+    void aterrizar();
 }
