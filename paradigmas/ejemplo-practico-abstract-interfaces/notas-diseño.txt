@@ -1,0 +1,14 @@
+patrón algo específico (no hay diferentes topología)
+estilo general, variables, topologías
+
+Capas:
+si tenemos
+Capa 1
+Capa 2
+Capa 3
+Capa 4
+Capa 5
+
+la 5 se comunica con la 4, de ahí la 4 con la 3, y así. pero hay de capas cerradas (la que se acaba de mencionar ) de capa abierta, que la capa 5 puede comunicRSE CON LA 2 y así.
+
+MVC es un tipo de estilo de capas
