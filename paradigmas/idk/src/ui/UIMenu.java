@@ -7,19 +7,6 @@ import model.Estudiante;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import static ui.UIEstudiante.*;
 import static ui.UIMaestro.*;
 import static ui.UISecretaria.*;
@@ -41,14 +28,12 @@ public class UIMenu {
         do {
             System.out.println("..:: Bienvenido ::..");
             System.out.println("Seleccione una opcion:");
-
             System.out.println("1. Maestros");
             System.out.println("2. Estudiantes");
             System.out.println("3. Secretaria");
             System.out.println("0. Salir");
 
             Scanner sc = new Scanner(System.in);
-
             respuesta = Integer.valueOf(sc.nextLine());
 
             switch (respuesta) {
@@ -82,6 +67,7 @@ public class UIMenu {
                         // meastro con acceso
                         System.out.println("Hola maestro: " + maestro.getNombre());
                         maestroMenu();
+
                     }
                 }
             }

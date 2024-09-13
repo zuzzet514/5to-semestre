@@ -39,6 +39,6 @@ public class CitaTutoria {
 
     @Override
     public String toString() {
-        return "Fecha:  " + this.fecha + " Hora: " + this.hora + "\n";
+        return "Fecha:  " + this.fecha + ", Hora: " + this.hora + "\n";
     }
 }

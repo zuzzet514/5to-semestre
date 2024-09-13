@@ -4,6 +4,8 @@ import java.util.Scanner;
 import static ui.UIMenu.*;
 
 public class UIMaestro {
+
+
     public static void maestroMenu() {
 
         int respuesta = 0;

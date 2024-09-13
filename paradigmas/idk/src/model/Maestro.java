@@ -23,10 +23,6 @@ public class Maestro extends Usuario {
         this.numPersonal = numPersonal;
     }
 
-    public ArrayList<TutoriasDisponibles> getTutoriasDisponibles() {
-        return tutoriasDisponibles;
-    }
-
     public void setTutoriasDisponibles(ArrayList<TutoriasDisponibles> tutoriasDisponibles) {
         this.tutoriasDisponibles = tutoriasDisponibles;
     }
@@ -35,9 +31,12 @@ public class Maestro extends Usuario {
         return especialidad;
     }
 
-
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
+    }
+
+    public ArrayList<TutoriasDisponibles> getTutoriasDisponibles() {
+        return tutoriasDisponibles;
     }
 
     ArrayList<TutoriasDisponibles> tutoriasDisponibles = new ArrayList<>();

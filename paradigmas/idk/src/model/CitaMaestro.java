@@ -2,10 +2,10 @@ package model;
 
 import java.util.Date;
 
-public class CitaMestro implements IAgendandable {
+public class CitaMaestro implements IAgendandable {
 
     private int id;
-    private Maestro maetsro;
+    private Maestro maestro;
     private Estudiante estudiante;
     private Date fecha;
     private String hora;
@@ -18,12 +18,12 @@ public class CitaMestro implements IAgendandable {
         this.id = id;
     }
 
-    public Maestro getMaetsro() {
-        return maetsro;
+    public Maestro getMaestro() {
+        return maestro;
     }
 
-    public void setMaetsro(Maestro maetsro) {
-        this.maetsro = maetsro;
+    public void setMaestro(Maestro maestro) {
+        this.maestro = maestro;
     }
 
     public Estudiante getEstudiante() {
