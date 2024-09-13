@@ -1,3 +1,7 @@
+package model;
+
+import java.util.Date;
+
 public class Secretaria extends Usuario {
     private String area;
     private String turno;
@@ -33,5 +37,12 @@ public class Secretaria extends Usuario {
     @Override
     public String toString() {
         return "Area " + area + "\nTurno " + turno;
+    }
+
+    public static class TutoriasDisponibles extends CitaTutoria {
+
+        public TutoriasDisponibles(Date fecha, String hora) {
+            super(fecha, hora);
+        }
     }
 }
