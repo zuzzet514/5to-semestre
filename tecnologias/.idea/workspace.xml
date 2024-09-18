@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f23b5c2-6f1a-4923-8e2b-a8419a0cdbf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bloque2/Singleton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bloque1/ISP/momosbot-copia" beforeDir="false" afterPath="$PROJECT_DIR$/bloque1/ISP/momosbot-copia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bloque1/ISP/momosbot-copia/App/imagenes/00c4f650-793e-4c52-9245-638bd5f21420-1658097190141.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bloque1/ISP/momosbot-copia/App/imagenes/1900x1900-000000-80-0-0 (1).jpg" beforeDir="false" />
@@ -125,6 +125,7 @@
       <list>
         <option value="Class" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -135,9 +136,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lSFcJEMBn0114lByEc7vnbxpea" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -146,13 +147,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.Singleton.ts.executor": "Run",
+    "Node.js.main.ts.executor": "Run",
+    "Node.js.test.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zS22017025/5to-semestre/tecnologias",
+    "last_opened_file_path": "C:/Users/zS22017025/5to-semestre/tecnologias/bloque2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -168,7 +172,7 @@
       <recent name="C:\Users\zuzze\uv\5to-semestre\tecnologias\DIPpractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Singleton.ts">
+  <component name="RunManager" selected="Node.js.main.ts">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bad.Main" />
       <module name="tecnologias" />
@@ -182,12 +186,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bloque2/Singleton.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/bloque2">
+    <configuration name="INotification.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bloque2/INotification.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/bloque2">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bloque2/main.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/bloque2">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bloque2/test.js" working-dir="$PROJECT_DIR$/bloque2">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Singleton.ts" />
+        <item itemvalue="Node.js.main.ts" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.INotification.ts" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -211,7 +223,8 @@
       <workItem from="1725165650510" duration="39000" />
       <workItem from="1725599071187" duration="4255000" />
       <workItem from="1725637316500" duration="6208000" />
-      <workItem from="1726274440893" duration="691000" />
+      <workItem from="1726274440893" duration="3071000" />
+      <workItem from="1726605418727" duration="299000" />
     </task>
     <servers />
   </component>
