@@ -21,10 +21,7 @@ public class UIMenu {
 
 
     public static void mostrarMenu() {
-        int respuesta;
-
-
-
+        int respuesta = 0;
         do {
             System.out.println("..:: Bienvenido ::..");
             System.out.println("Seleccione una opcion:");
@@ -65,9 +62,11 @@ public class UIMenu {
                 for (Maestro maestro : maestros) {
                     if (maestro.getCorreo().equals(correoUsuario)) {
                         // meastro con acceso
-                        System.out.println("Hola maestro: " + maestro.getNombre());
-                        maestroMenu();
+                        maestroLogeado = maestro;
+                        System.out.println("Hola maestro: " + maestroLogeado.getNombre());
 
+                        maestroMenu();
+                        bandera = false;
                     }
                 }
             }
@@ -80,6 +79,7 @@ public class UIMenu {
                         estudianteMenu();
                     }
                 }
+                bandera = false;
             }
 
             if (tipoUsuario == 3) {
@@ -90,8 +90,9 @@ public class UIMenu {
                         secretariaMenu();
                     }
                 }
+                bandera = false;
             }
-        } while (!bandera);
+        } while (bandera);
 
 
     }

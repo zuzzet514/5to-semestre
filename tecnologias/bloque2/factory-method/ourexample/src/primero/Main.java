@@ -1,3 +1,5 @@
+package primero;
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,7 +8,7 @@ public class Main {
         CharacterFactory factory = null;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose your character type: (1) Warrior, (2) Wizard");
+        System.out.println("Choose your character type: (1) primero.Warrior, (2) primero.Wizard");
         int choice = scanner.nextInt();
 
         switch (choice) {

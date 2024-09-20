@@ -1,15 +1,22 @@
 package model;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class CitaTutoria {
     private int id;
     private Date fecha;
     private String hora;
+    SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
 
-    public CitaTutoria(Date fecha, String hora) {
+    public CitaTutoria(String fecha, String hora) {
         this.id = id;
-        this.fecha = fecha;
+        try {
+            this.fecha = formato.parse(fecha);
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
         this.hora = hora;
     }
 
@@ -21,8 +28,13 @@ public class CitaTutoria {
         this.id = id;
     }
 
-    public Date getFecha() {
+
+    public Date getFeccha(Date fecha) {
         return fecha;
+    }
+
+    public String getFecha() {
+        return formato.format(fecha);
     }
 
     public void setFecha(Date fecha) {

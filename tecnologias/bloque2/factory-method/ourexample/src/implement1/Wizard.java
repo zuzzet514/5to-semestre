@@ -1,8 +1,12 @@
+package implement1;
+
+import primero.Character;
+
 public class Wizard implements Character {
 
     @Override
     public void attack() {
-        System.out.println("Wizard casts a fireball!");
+        System.out.println("primero.Wizard casts a fireball!");
     }
 
     @Override

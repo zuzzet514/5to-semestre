@@ -41,7 +41,7 @@ public class Secretaria extends Usuario {
 
     public static class TutoriasDisponibles extends CitaTutoria {
 
-        public TutoriasDisponibles(Date fecha, String hora) {
+        public TutoriasDisponibles(String fecha, String hora) {
             super(fecha, hora);
         }
     }

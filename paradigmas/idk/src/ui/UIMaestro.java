@@ -1,17 +1,21 @@
 package ui;
 
+import model.Maestro;
+
+import java.util.AbstractList;
+import java.util.ArrayList;
 import java.util.Scanner;
 import static ui.UIMenu.*;
 
 public class UIMaestro {
 
+    public static AbstractList<Maestro> maestrosConTutorias = new ArrayList<>();
 
     public static void maestroMenu() {
 
         int respuesta = 0;
 
         System.out.println("..::Maestro::..");
-
 
         do {
             System.out.println("Seleccione una opcion");
@@ -24,10 +28,10 @@ public class UIMaestro {
 
             switch (respuesta) {
                 case 1:
-                    System.out.println("Agregar curso");
+                    agregarTutoria();
                     break;
                 case 2:
-                    System.out.println("Listar mis cursos");
+                    listarTutorias();
                     break;
                 case 3:
                     mostrarMenu();
@@ -43,15 +47,58 @@ public class UIMaestro {
 
     public static void agregarTutoria() {
         System.out.println("Agregar Tutoria:");
-        System.out.println("Ingresa la fecha del curso: [dd/mm/yyyy]");
-        Scanner sc = new Scanner(System.in);
-        String fecha = sc.nextLine();
-        System.out.println("Ingresa la hora del curso: [00:00]");
-        String hora = sc.nextLine();
+
+        boolean banderaExterna = false;
+        do {
+            System.out.println("Ingresa la fecha del curso: [dd/mm/yyyy]");
+            Scanner sc = new Scanner(System.in);
+            String fecha = sc.nextLine();
+            System.out.println("Ingresa la hora del curso: [00:00]");
+            String hora = sc.nextLine();
+
+            boolean banderaInterna = true;
+            do {
+                System.out.println("La tutoria es: " + fecha + " " + hora);
+                System.out.println("""
+                1. para agregar tutoria
+                2. para cambiar tutoria""");
+                int respuesta = sc.nextInt();
+                if (respuesta == 2) {
+                    banderaInterna = false;
+                } else if (respuesta == 1) {
+                    banderaExterna = false;
+                    banderaInterna = false;
+                    maestroLogeado.addTutoriasDisponibles(fecha, hora);
+                    consultarMaestroContutoria(maestroLogeado);
+                } else {
+                    System.out.println("Opcion no valida");
+                }
+            } while (banderaInterna);
+        } while (banderaExterna);
+
+
+
     }
 
-    public static void listarCursos() {
-        System.out.println("Listado de cursos:");
+    private static void consultarMaestroContutoria(Maestro maestro) {
+        if(!maestrosConTutorias.contains(maestro)) {
+            maestrosConTutorias.add(maestro);
+        }
+    }
+
+    public static void listarTutorias() {
+        System.out.println("Listado de tutorias:");
+
+        if (maestroLogeado.getTutoriasDisponibles().size() == 0) {
+            System.out.println("No hay registros.\n");
+        }
+        //maestroLogeado.getTutoriasDisponibles().forEach(System.out::println);
+        int j = 1;
+        for (int i = 0; i < maestroLogeado.getTutoriasDisponibles().size(); i++) {
+            System.out.println(j + ".-" + maestroLogeado.getTutoriasDisponibles().get(i).getFecha() + " " + maestroLogeado.getTutoriasDisponibles().get(i).getHora()+ "\n");
+            j++;
+        }
+
     }
 
 }

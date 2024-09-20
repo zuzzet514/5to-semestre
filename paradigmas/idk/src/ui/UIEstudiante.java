@@ -1,4 +1,5 @@
 package ui;
+import ui.UIMaestro.*;
 
 import java.util.Scanner;
 
@@ -19,19 +20,24 @@ public class UIEstudiante {
 
             switch (respuesta) {
                 case 1:
-                    System.out.println("..:: Agnedar tutoría ::..");
-                    for (String s: MESES) {
-                        System.out.print(s + " ");
-                    }
-                    System.out.println();
-                    break;
+                    agendarTutoria();
                 case 2:
-                    System.out.println("Mis tutorías"); break;
+                    listarMisTutorias();
                 case 0:
-                    System.out.println("..:: Cancelar :.."); break;
+                    System.out.println("..:: Bye :.."); break;
                 default:
                     System.out.println("Mayate");
             }
         } while (respuesta != 0);
+    }
+
+    private static void agendarTutoria() {
+        System.out.println("Escoge un maestro: ");
+
+
+    }
+
+    private static void listarMisTutorias() {
+
     }
 }
