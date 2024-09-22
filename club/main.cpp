@@ -1,11 +1,16 @@
-#include <bits/stdc++.h>
-int k = 0;
-bool x = false;
-std::string h = "";
+#include <iostream>
 
 int main()
 {
-    std::cout << "Ingresa el valor de k: ";
-    std::cin >> k;
-    std::cout << "el valor de k es: " << k;
+    std::string name;
+    int num;
+
+    std::cout << "Ingresa un número: ";
+    std::cin >> num;
+
+    std::cout << "Ingresa tu nombre completo: ";
+
+    getline(std::cin >> std::ws, name);
+    std::cout << "Número: " << num << '\n';
+    std::cout << "Nombre: " << name << '\n';
 }
