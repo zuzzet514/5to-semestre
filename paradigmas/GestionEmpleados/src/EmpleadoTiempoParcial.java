@@ -7,12 +7,25 @@ public class EmpleadoTiempoParcial extends Empleado implements IEmpleado {
         this.horasPorSemana = horasPorSemana;
     }
 
+    public int getHorasPorSemana() {
+        return horasPorSemana;
+    }
+
+    public void setHorasPorSemana(int horasPorSemana) {
+        this.horasPorSemana = horasPorSemana;
+    }
+
     public double calcularSalario() {
-        return 0.0;
+        return horasPorSemana * this.getSalario();
     }
 
     @Override
-    public void calcularIncentivo() {
+    public double calcularIncentivo() {
+        return calcularSalario() * 0.03;
+    }
 
+    @Override
+    public String toString() {
+        return super.toString() + "\nHoras: " + horasPorSemana + "\n";
     }
 }

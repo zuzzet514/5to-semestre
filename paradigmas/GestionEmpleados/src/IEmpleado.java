@@ -1,3 +1,3 @@
 public interface IEmpleado {
-    void calcularIncentivo();
+    double calcularIncentivo();
 }
