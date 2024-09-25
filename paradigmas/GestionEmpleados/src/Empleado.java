@@ -1,4 +1,5 @@
 public class Empleado {
+    // Variables privadas que todos los empleados tienen
     private String nombre;
     private int id;
     private double salario;
@@ -33,6 +34,8 @@ public class Empleado {
         this.salario = salario;
     }
 
+    // Método sobrescrito para devolver una representación en forma de cadena
+    // del objeto Empleado,
     @Override
     public String toString() {
         return "Nombre: " + nombre + "\nId: " + id + "\nSalario: " + salario;
