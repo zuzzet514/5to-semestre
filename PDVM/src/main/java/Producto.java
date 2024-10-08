@@ -8,9 +8,6 @@ public class Producto {
      private String marca;
      private Categoria categoria;
 
-    public Producto() {
-    }
-
     public Producto(String nombre, String descripcion, double precio, String codigoBarra, String marca, Categoria categoria) {
         this.idProducto = ++numeroProducto;
         this.nombre = nombre;
@@ -22,7 +19,7 @@ public class Producto {
     }
 
     public Producto(String nombre, double precio, String codigoBarra, String marca, Categoria categoria) {
-        this.idProducto = idProducto;
+        this.idProducto = ++numeroProducto;
         this.nombre = nombre;
         this.precio = precio;
         this.codigoBarra = codigoBarra;
@@ -34,9 +31,6 @@ public class Producto {
         return idProducto;
     }
 
-    public void setIdProducto(int idProducto) {
-        this.idProducto = idProducto;
-    }
 
     public String getNombre() {
         return nombre;
