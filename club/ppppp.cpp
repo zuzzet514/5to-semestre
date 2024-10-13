@@ -12,4 +12,5 @@ string n;
         cout << n[i];
     }
 
-*/                
+*/    
+// vector<int> n(N);            
