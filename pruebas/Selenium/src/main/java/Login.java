@@ -33,5 +33,8 @@ public class Login {
 
         element.submit();
 
+        String elementval = driver.findElement(By.name("q")).getAttribute("value");
+        System.out.println("Elemento: " + elementval);
+
     }
 }
