@@ -1,0 +1,15 @@
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.AssemblyInfoInputs.cache
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.AssemblyInfo.cs
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.csproj.CoreCompileInputs.cache
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.sourcelink.json
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\bin\Debug\net8.0\equipo1.exe
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\bin\Debug\net8.0\equipo1.deps.json
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\bin\Debug\net8.0\equipo1.runtimeconfig.json
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\bin\Debug\net8.0\equipo1.dll
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\bin\Debug\net8.0\equipo1.pdb
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.dll
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\refint\equipo1.dll
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.pdb
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\equipo1.genruntimeconfig.cache
+C:\Users\zS22017025\5to-semestre\tecnologias\bloque3\composite\equipo1\obj\Debug\net8.0\ref\equipo1.dll
