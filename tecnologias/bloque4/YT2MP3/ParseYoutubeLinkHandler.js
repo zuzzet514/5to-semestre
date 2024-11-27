@@ -1,4 +1,6 @@
-class ParserYoutubeLinkHandler extends Handler{
+const Handler = require("./Handler");
+
+class ParseYoutubeLinkHandler extends Handler{
     async handle(input) {
 
         const videoIdMatch = input.match(/(?:\?v=|&v=|youtu\.be\/|youtube\.com\/embed\/)([^&\s]+)/);
@@ -16,3 +18,5 @@ class ParserYoutubeLinkHandler extends Handler{
 
 
 }
+
+module.exports = { ParseYoutubeLinkHandler };
