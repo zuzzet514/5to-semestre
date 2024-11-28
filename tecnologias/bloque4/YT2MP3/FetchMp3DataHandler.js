@@ -20,17 +20,13 @@ class FetchMp3DataHandler extends Handler{
 
             if (data.status === "ok") {
                 console.log(`Song Title: ${data.title}`);
-                console.log(`Downloading MP3...`);
+                console.log(`Fetching MP3 download link...`);
 
-                // Fetch the MP3 file from the link
-                const mp3Response = await fetch(data.link);
-                const mp3Buffer = await mp3Response.buffer();
-
-                // Save the MP3 file locally
-                const filePath = path.join(__dirname, `${data.title}.mp3`);
-                fs.writeFileSync(filePath, mp3Buffer);
-
-                console.log(`Download completed: ${filePath}`);
+                // Pass the metadata to the next handler
+                return super.handle({
+                    title: data.title,
+                    link: data.link,
+                });
             } else if (data.msg === "in queue") {
                 console.warn("Video is in queue. Please try again later.");
             } else {
