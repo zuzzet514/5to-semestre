@@ -9,7 +9,7 @@ public class Texto {
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://diagramasuml.com/paquetes/#google_vignette");
+        driver.get("https://www.softplan.com.br/es/tech-writers/ihc/");
 
         String xpath = "//p[not(@id) and not(@class) and not(@name)]";
 
