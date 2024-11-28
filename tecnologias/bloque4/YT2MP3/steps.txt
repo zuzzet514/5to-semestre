@@ -1,0 +1,7 @@
+1. npm init
+2. npm i express dotenv node-fetch@2 readline
+3. npm i nodemon --save-dev
+
+
+ . change "main" in package.json file, and below "scripts/test" you should add ' , "dev" : "nodemon app.js" '
+ . make .env file
